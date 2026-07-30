@@ -7,8 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-df = pd.read_csv("./dataset/cleaned_accidents.csv", low_memory=False)
-
+df = pd.read_csv("./dataset/cleaned_accidents_small.csv", low_memory=False)
 df["Date"] = pd.to_datetime(df["Date"])
 
 st.title("UK Road Safety Accident Analysis Dashboard")
