@@ -13,4 +13,7 @@ venv/
 
 .DS_Store
 
-dataset/
+dataset/Accident_Information.csv
+dataset/Vehicle_Information.csv
+dataset/merged_accident_vehicle.csv
+dataset/cleaned_accidents.csv
